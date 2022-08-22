@@ -1,0 +1,44 @@
+---
+title: "My First Report"
+author: "Robert Wiederstein"
+date: "2022-08-22"
+bibliography: sources.bib
+output: pdf_document
+nocite: |
+  @R-base, @R-citr
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(rmarkdown)
+library(citr)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+Xie recommends using BibTex databases because they work better when the output is LaTeX/PDF. For example, number theory is important.[@borevich1986number] Numbers like $1, 2, ... n$ are natural numbers.[@hua2012introduction] You can use [Zotero](https://www.zotero.org) to organize your sources and then export the citations to `sources.bib` as specified in the front or "YAML" matter.  Additionally, the `citr` [package](https://github.com/crsh/citr) can automate insertion of the reference.
+
+
+# References
+
+<div id="refs"></div>
+
+
