@@ -34,7 +34,7 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-Xie recommends using BibTex databases because they work better when the output is LaTeX/PDF. For example, number theory is important.[@borevich1986number] Numbers like $1, 2, ... n$ are natural numbers.[@hua2012introduction] You can use [Zotero](https://www.zotero.org) to organize your sources and then export the citations to `sources.bib` as specified in the front or "YAML" matter.  Additionally, the `citr` [package](https://github.com/crsh/citr) can automate insertion of the reference.
+Xie recommends using BibTex databases because they work better when the output is LaTeX/PDF.[@xie2020r] For example, number theory is important.[@borevich1986number] Numbers like $1, 2, ... n$ are natural numbers.[@hua2012introduction] You can use [Zotero](https://www.zotero.org) to organize your sources and then export the citations to `sources.bib` as specified in the front or "YAML" matter.  Additionally, the `citr` [package](https://github.com/crsh/citr) can automate insertion of the reference.
 
 
 # References
